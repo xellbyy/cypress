@@ -141,7 +141,7 @@ func (c App) Auth1() revel.Result {
 		// you would like it to contain.
 		token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
 			"username": "joe",
-			"password": "2ac9cb7dc02b3c0083eb70898e549b63",
+	
 			"level":    "admin",
 		})
 
