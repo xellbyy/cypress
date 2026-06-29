@@ -184,7 +184,7 @@ func (c App) Expired_JWT_Login(username, password string) revel.Result {
 }
 func (c App) Expired_JWT() revel.Result {
 	/*
-		// Create a new token object, specifying signing method and the claims
+		// Create a new token object, specifying signing method and the claims 
 		// you would like it to contain.
 		token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
 			"username": "joe",
