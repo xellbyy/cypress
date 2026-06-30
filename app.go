@@ -149,7 +149,8 @@ func (c App) Auth1() revel.Result {
 		tokenString, _ := token.SignedString(hmacSampleSecret)
 	*/
 
-	tokenString := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6InVzZXIiLCJ1c2VyIjoic2lkIn0.Hnpn5k6NtrXn8qvOuiSsFjXhAolQGn3TfmGBvA7EGTU"
+	
+	app.secret_key = 'ThisisSuperFlagBySecurityDojo'
 
 	fogot_pass_btn": "#forgotEmailButton"
 
