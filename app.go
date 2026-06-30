@@ -151,6 +151,8 @@ func (c App) Auth1() revel.Result {
 
 	tokenString := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsZXZlbCI6InVzZXIiLCJ1c2VyIjoic2lkIn0.Hnpn5k6NtrXn8qvOuiSsFjXhAolQGn3TfmGBvA7EGTU"
 
+	fogot_pass_btn": "#forgotEmailButton"
+
 	//var username string = c.Params.Form["username"][0]
 	username := ""
 	return c.Render(tokenString, username)
